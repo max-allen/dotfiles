@@ -1,13 +1,21 @@
 [user]
   name = max-allen
   email = contact@maxallen.io
+
 [credential]
   helper = osxkeychain
-[core]
-  editor = code --wait
+
 [alias]
-  mit = "commit -m"
-  out = "checkout"
-  new = "checkout -b"
-  down = "pull origin"
-  up = "push origin"
+  st = "status"
+  br = "branch"
+  ci = "commit"
+  cim = "commit --amend"
+  co = "checkout"
+  pl = "pull"
+  ph = "push"
+
+[push]
+  autoSetupRemote = true
+
+[init]
+  defaultBranch = main
