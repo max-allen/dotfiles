@@ -7,15 +7,31 @@
 
 [alias]
   st = "status"
+  df = "diff"
   br = "branch"
-  ci = "commit"
+
+  ci = "commit -m"
   cim = "commit --amend"
+  cime = "commit --amend --no-edit"
+
+  rb = "rebase"
+  sh = "stash"
+
+  lg = "log"
+  rl="reflog"
+
   co = "checkout"
+  sw = "switch"
   pl = "pull"
   ph = "push"
+
+  cg = "config"
 
 [push]
   autoSetupRemote = true
 
 [init]
   defaultBranch = main
+
+[pull]
+	rebase = true
