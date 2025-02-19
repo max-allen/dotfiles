@@ -2,9 +2,6 @@
   name = max-allen
   email = contact@maxallen.io
 
-[credential]
-  helper = osxkeychain
-
 [alias]
   st = "status"
   df = "diff"
@@ -15,10 +12,12 @@
   cime = "commit --amend --no-edit"
 
   rb = "rebase"
+  rbc = "rebase --continue"
+  rbi = "rebase -i"
   sh = "stash"
 
   lg = "log"
-  rl="reflog"
+  rl = "reflog"
 
   co = "checkout"
   sw = "switch"
