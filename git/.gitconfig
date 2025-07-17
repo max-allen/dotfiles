@@ -21,6 +21,7 @@
 
   co = "checkout"
   sw = "switch"
+  swb = "switch -"
   pl = "pull"
   ph = "push"
 
