@@ -5,7 +5,11 @@
 [alias]
   st = "status"
   df = "diff"
+  dfs = "diff --staged"
+
   br = "branch"
+  brl = "branch -l --sort=-committerdate"
+  brm = "branch -M"
 
   ci = "commit -m"
   cim = "commit --amend"
@@ -14,7 +18,9 @@
   rb = "rebase"
   rbc = "rebase --continue"
   rbi = "rebase -i"
+
   sh = "stash"
+  sha = "stash apply"
 
   lg = "log"
   rl = "reflog"
@@ -22,7 +28,9 @@
   co = "checkout"
   sw = "switch"
   swb = "switch -"
+
   pl = "pull"
+  plm = "pull origin main"
   ph = "push"
 
   cg = "config"
